@@ -1,14 +1,19 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+// %d - print an integer
+// %s - print a string
+// %f - print a decimal
+// %c - print a single character
+
+// Usage below
+
 int main()
 {
-    char CharacterName[] = "John";
-    int CharacterAge = 40;
+    char StudentName[] = "Lucas Bankole";
+    int StudentAge = 20;
+    float cgpa = 4.9;
+    char grade = 'A';
 
-    printf("%s is a middle-aged man from New York. \n", CharacterName);
-    printf("\n");
-    printf("He just turned %d and was hopeful. \n", CharacterAge);
-    printf("\n");
-    printf("As they say, life begins at %d. \n", CharacterAge);
+    printf("The Valedictorian of the year is %s. \n At %d, he scored an %c in all his courses and graduated with a cgpa of %f!", StudentName, StudentAge, grade, cgpa);
 }
