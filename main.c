@@ -1,22 +1,24 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-// %d - print an integer
-// %s - print a string
-// %f - print a decimal
-// %c - print a single character
-
-// Usage below
-
-int main()
+int main(void)
 {
-    char StudentName[] = "Lucas Bankole";
-    int StudentAge = 20;
-    float GPA = 4.9;
-    char grade = 'A';
+    char name[25];
+    int age;
+    char grade;
+    double GPA;
 
-    printf("The Valedictorian of the year is %s. \n At %d, he scored an %c in all his courses and graduated with a GPA of %f! \n", StudentName, StudentAge, grade, GPA);
+    // printf("Please enter your name:\n");
+    // scanf("%s", name);
+    // printf("Please enter your age:\n");
+    // scanf("%d", &age);
+    // printf("Please enter a grade:\n");
+    // scanf(" %c", &grade); // There is a \n left in the input buffer from previous scanf. Use " %c".
+    // printf("Please enter your GPA:\n");
+    // scanf("%lf", &GPA);
 
-    const int number = 23;
-    printf("My fave number is %d \n", number * 2);
+    // printf("User Data:\n Name: %s \n Age: %d \n grade: %c GPA: %f \n", name, age, grade, GPA);
+
+    char *s = "Hello World!";
+    printf("%s", s);
 }
