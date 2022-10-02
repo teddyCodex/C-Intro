@@ -3,10 +3,10 @@
 
 int main(void)
 {
-    char name[25];
-    int age;
-    char grade;
-    double GPA;
+    // char name[25];
+    // int age;
+    // char grade;
+    // double GPA;
 
     // printf("Please enter your name:\n");
     // scanf("%s", name);
@@ -19,6 +19,9 @@ int main(void)
 
     // printf("User Data:\n Name: %s \n Age: %d \n grade: %c GPA: %f \n", name, age, grade, GPA);
 
-    char *s = "Hello World!";
-    printf("%s", s);
+    // char *s = "Hello World!";
+    // printf("%s", s);
+
+    int x = -2;
+    printf("The number %d is %s \n", x, x % 2 == 0 ? "even" : "odd");
 }
